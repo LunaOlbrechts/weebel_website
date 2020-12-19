@@ -1737,7 +1737,7 @@ a:hover.back-to-top {
 	}
 	/* end of extra pages */
 }
-/* end of min-width width 768px */
+/* end of min-width width 768px */ 
 
 
 /* Min-width width 992px */
@@ -1860,7 +1860,7 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header {
-		background: url('../images/background-map-small_background-map-1.svg') center center no-repeat;
+		background: url('../images/background-map_background-map-1.svg') center center no-repeat;
 		background-size: contain;
 		background-position: right;
 	}
