@@ -52,15 +52,15 @@ html {
 
 body, p {
 	color: #626262; 
-	font: 400 0.875rem/1.375rem "Raleway", sans-serif;
+	font: 400 0.875rem/1.375rem "Montserrat-regular", sans-serif;
 }
 
 .p-large {
-	font: 400 1rem/1.5rem "Raleway", sans-serif;
+	font: 400 1rem/1.5rem "Montserrat-regular", sans-serif;
 }
 
 .p-small {
-	font: 400 0.75rem/1.25rem "Raleway", sans-serif;
+	font: 400 0.75rem/1.25rem "Montserrat-regular", sans-serif;
 }
 
 .p-heading {
@@ -77,22 +77,22 @@ body, p {
 
 h1 {
 	color: #393939;
-	font: 700 3rem/3.5rem "Raleway", sans-serif;
+	font: 700 3rem/3.5rem "Montserrat-Medium", sans-serif;
 }
 
 h2 {
 	color: #393939;
-	font: 700 2.25rem/2.75rem "Raleway", sans-serif;
+	font: 700 2.25rem/2.75rem "Montserrat-Medium", sans-serif;
 }
 
 h3 {
 	color: #393939;
-	font: 700 1.75rem/2rem "Raleway", sans-serif;
+	font: 700 1.75rem/2rem "Montserrat-regular", sans-serif;
 }
 
 h4 {
 	color: #393939;
-	font: 700 1.375rem/1.875rem "Raleway", sans-serif;
+	font: 700 1.375rem/1.875rem "Montserrat-regular", sans-serif;
 }
 
 h5 {
