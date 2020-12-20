@@ -25,8 +25,9 @@ if (empty($_POST["terms"])) {
     $terms = $_POST["terms"];
 }
 
-$EmailTo = "yourname@domain.com";
-$Subject = "New message from Evolo landing page";
+
+$EmailTo = "weebel.info@gmail.com";
+$Subject = "Weebel website";
 
 // prepare email body text
 $Body = "";
@@ -56,4 +57,3 @@ if ($success && $errorMSG == ""){
         echo $errorMSG;
     }
 }
-?>
