@@ -53,7 +53,7 @@ html {
 body, p {
 	color: #626262; 
 	font: 400 0.875rem/1.375rem "Montserrat-regular", sans-serif;
-}
+}ƒ
 
 .p-large {
 	font: 400 1rem/1.5rem "Montserrat-regular", sans-serif;
@@ -120,7 +120,7 @@ a.turquoise {
 }
 
 .purple{
-	color: #6552D0;
+	color: #F2AC19;
 }
 
 a.white {
@@ -142,9 +142,9 @@ a.white {
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #00bfd8;
+	border: 0.125rem solid #F74E55;
 	border-radius: 2rem;
-	background-color: #00bfd8;
+	background-color: #F74E55;
 	color: #fff;
 	font: 700 0.75rem/0 "Raleway", sans-serif;
 	text-decoration: none;
@@ -153,16 +153,16 @@ a.white {
 
 .btn-solid-reg:hover {
 	background-color: transparent;
-	color: #00bfd8;
+	color: #F74E55;
 	text-decoration: none;
 }
 
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.375rem 2.625rem 1.375rem 2.625rem;
-	border: 0.125rem solid #6552D0;
+	border: 0.125rem solid #F2AC19;
 	border-radius: 2rem;
-	background-color: #6552D0;
+	background-color: #F2AC19;
 	color: #fff;
 	font: 700 0.75rem/0 "Raleway", sans-serif;
 	text-decoration: none;
@@ -171,7 +171,7 @@ a.white {
 
 .btn-solid-lg:hover {
 	background-color: transparent;
-	color: #00bfd8;
+	color: #F2AC19;
 	text-decoration: none;
 }
 
