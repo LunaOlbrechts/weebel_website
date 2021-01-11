@@ -849,6 +849,10 @@ screen and (-ms-high-contrast: none) {
     color: white;
 }
 
+.card{
+    background-color: transparent !important;
+}
+
 .cards-1 .card {
     max-width: 21rem;
     margin-right: auto;
