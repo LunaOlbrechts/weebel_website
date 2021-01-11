@@ -20,6 +20,32 @@
     gtag('config', 'UA-185782435-1');
     </script>
 
+    <!-- Story -->
+    <script> 
+        window['_fs_debug'] = false; 
+        window['_fs_host'] = 'fullstory.com'; 
+        window['_fs_script'] = 'edge.fullstory.com/s/fs.js'; 
+        window['_fs_org'] = '101EV0'; 
+        window['_fs_namespace'] = 'FS'; 
+        (function(m,n,e,t,l,o,g,y){ if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;} g=m[e]=function(a,b,s){g.q?g.q.push([a,b,s]):g._api(a,b,s);};g.q=[]; o=n.createElement(t);o.async=1;o.crossOrigin='anonymous';o.src='https://'+_fs_script; y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y); g.identify=function(i,v,s){g(l,{uid:i},s);if(v)g(l,v,s)};g.setUserVars=function(v,s){g(l,v,s)};g.event=function(i,v,s){g('event',{n:i,p:v},s)}; g.anonymize=function(){g.identify(!!0)}; g.shutdown=function(){g("rec",!1)};g.restart=function(){g("rec",!0)}; g.log = function(a,b){g("log",[a,b])}; g.consent=function(a){g("consent",!arguments.length||a)}; g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)}; g.clearUserCookie=function(){}; g.setVars=function(n, p){g('setVars',[n,p]);}; g._w={};y='XMLHttpRequest';g._w[y]=m[y];y='fetch';g._w[y]=m[y]; if(m[y])m[y]=function(){return g._w[y].apply(this,arguments)}; g._v="1.3.0"; })(window,document,window['_fs_namespace'],'script','user'); 
+    </script>
+
+   <!-- Start VWO Async SmartCode -->
+    <script type='text/javascript'>
+    window._vwo_code = window._vwo_code || (function(){
+    var account_id=541376,
+    settings_tolerance=2000,
+    library_tolerance=2500,
+    use_existing_jquery=false,
+    is_spa=1,
+    hide_element='body',
+    
+    /* DO NOT EDIT BELOW THIS LINE */
+    f=false,d=document,code={use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){
+    window.settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b=hide_element?hide_element+'{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}':'',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('https://dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&f='+(+is_spa)+'&r='+Math.random());return settings_timer; }};window._vwo_settings_timer = code.init(); return code; }());
+    </script>
+    <!-- End VWO Async SmartCode -->
+
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -43,7 +69,7 @@
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
     <meta property="og:site_name" content="Weebel" /> <!-- website name -->
     <meta property="og:site" content="www.weebel.be" /> <!-- website link -->
-    <meta property="og:title" content="Weeble" /> <!-- title shown in the actual shared post -->
+    <meta property="og:title" content="Weebel" /> <!-- title shown in the actual shared post -->
     <meta property="og:description"
         content="Belgisch Vakantiespel voor families om nieuwe plekjes te ontdekken en de koninkrijken van weebel te veroveren" />
     <!-- description shown in the actual shared post -->
@@ -139,6 +165,26 @@
                             <h1><span class="purple">Weebel, </span> het Belgisch vakantiespel voor gezinnen</h1>
                             <p class="p-large"></p>
                             <a class="btn-solid-lg page-scroll" href="#services">ONTDEK</a>
+                            <!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="https://weebel.us7.list-manage.com/subscribe/post?u=7a4d0ed19cfefe996cb2f52ce&amp;id=e0e658d5dd" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<label for="mce-EMAIL">Schrijf je in voor onze nieuwsbrief!</label>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7a4d0ed19cfefe996cb2f52ce_e0e658d5dd" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn-solid-lg page-scroll"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
                         </div> <!-- end of text-container -->
                     </div> <!-- end of col -->
                     <div class="col-lg-6">
@@ -370,8 +416,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h2>Team Weebel</h2>
-                    <p class="p-heading p-large">Meat our team of specialized marketers and business developers which
-                        will help you research new products and launch them in new emerging markets</p>
+                    <p class="p-heading p-large">Ontmoet het gedreven team achter Weebel</p>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
             <div class="row">

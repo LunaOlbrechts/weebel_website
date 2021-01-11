@@ -2224,4 +2224,17 @@ a:hover.back-to-top {
     /* end of extra pages */
 }
 
+#mc_embed_signup form{
+    background-color: #5f3b7a;
+    margin-top: 30px;
+    text-align: left !important;
+}
+
+#mc_embed_signup .button{
+    margin-top: 10px !important;
+    border-radius: 2rem !important;
+    background-color: #F2AC19 !important;
+    color: #fff;
+    font: 700 0.75rem/0 "Raleway", sans-serif;
+}
 /* end of min-width width 1200px */
